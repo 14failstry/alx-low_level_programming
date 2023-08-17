@@ -1,0 +1,9 @@
+preprocessor
+compiler
+assembler
+name
+puts
+printf
+size
+intel
+quote.c
