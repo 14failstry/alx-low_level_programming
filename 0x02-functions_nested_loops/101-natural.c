@@ -1,4 +1,4 @@
-#include <stdio.>
+#include <stdio.h>
 
 /**
  * main -list all natural numbers below 1024
@@ -20,22 +20,4 @@ int main(void)
 
 		printf("%d\n", sum);
 		return (0);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
