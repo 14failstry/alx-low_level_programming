@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
-*main-a function that checks for an infinite loop
-*return: 0
+*main- causes an infinite loop
+*Return: 0
 */
-int mai(void)
+int main(void)
 {
 	int i;
 
