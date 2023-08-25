@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_line- a function that draws a straight line on a termial
@@ -9,16 +10,16 @@ void print_line(int n)
 {
 	if (n <= 0)
 	{
-		_putchar('\n');
+		putchar('\n');
 	} else
 	{
 		int i;
 
 		for (i = 1; i <= n; i++)
 		{
-			_putchar('_');
+			putchar('_');
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 
 }
