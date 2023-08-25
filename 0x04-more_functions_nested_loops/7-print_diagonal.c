@@ -8,11 +8,11 @@
  */
 void print_diagonal(int n)
 {
+
 	if (n <= 0)
 	{
 		putchar('\n');
-	}
-	else
+	} else
 	{
 		int x, y;
 
@@ -21,11 +21,13 @@ void print_diagonal(int n)
 			for (y = 0; y < n; y++)
 			{
 				if (y == x)
-					putchar ('\\');
+					putchar('\\');
 				else if (y < x)
-					putchar ('');
+					putchar(' ');
 			}
-			putchar ('\n');
+			putchar('\n');
 		}
 	}
 }
+
+
