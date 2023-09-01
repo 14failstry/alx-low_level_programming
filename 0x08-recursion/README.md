@@ -5,4 +5,5 @@ factorial of a number
 returns the value of a power
 square root of a number
 prime number
+compares strings
 
