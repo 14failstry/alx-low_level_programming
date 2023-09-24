@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * wildcmp- a function that compares two strings
- *@s1: pointer to string parameter
- *@s2:pointers to string parameter
- *Return: 1 if identical
- *Return: 0 otherwise
+ * wildcmp- a function that Compares two strings
+ * @s1: pointer to string params
+ * @s2: pointer to string params
+ * Return: 0
  */
 
-if (*s1 == '\0')
+int wildcmp(char *s1, char *s2)
+{
+	if (*s1 == '\0')
 	{
 		if (*s2 != '\0' && *s2 == '*')
 		{
