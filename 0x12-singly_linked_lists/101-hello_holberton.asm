@@ -1,3 +1,10 @@
-nasm -f elf64 -o hello.o hello.asm
-gcc -nostartfiles -o hello hello.o -no-pie -lm
+       global    main
+          extern    printf
+main:
+	  mov   edi, format
+	  xor   eax, eax
+	  call  printf
+	  mov 	eax, 0
+	  ret
+format: db `Hello, Holberton\n`,0
 
